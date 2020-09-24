@@ -177,13 +177,4 @@ public class ContentInfo {
         }
     }
 
-    public static void main(String[] args) {
-        try {
-            ContentInfo contentInfo = new ContentInfo("https://www.ccis.northeastern.edu/home/pgust/classes/cs5500/2020/Fall/resources/assignment-1/12lines.pdf");
-            System.out.println(contentInfo.getLocation());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }
 }
