@@ -155,7 +155,7 @@ class ContentInfoTest {
         try {
             ContentInfo myContent = new ContentInfo("https://www.ccis.northeastern.edu/home/pgust/classes/cs5500/2020/Fall/resources/assignment-1/12lines.pdf");
             String location = myContent.getLocation();
-            assertEquals("/home/pgust/classes/cs5500/2020/Fall/resources/assignment-1/12lines.pdf", location);
+            assertEquals("https://www.ccis.northeastern.edu/home/pgust/classes/cs5500/2020/Fall/resources/assignment-1/12lines.pdf", location);
         } catch (MalformedURLException e) {
             fail("unexpected MalformedURLException");
         }

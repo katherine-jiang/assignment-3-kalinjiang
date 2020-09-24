@@ -119,7 +119,7 @@ public class ContentInfo {
      * @return the location for this content
      */
     public String getLocation() {
-        return url.getPath();
+        return url.toString();
     }
 
     /**
